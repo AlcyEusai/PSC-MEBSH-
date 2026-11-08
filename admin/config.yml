@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: VOTRE_COMPTE_GITHUB/psc-mebsh
+  branch: main
+  # Pour un hébergement GitHub Pages, configurer un service OAuth externe.
+  # Exemple : base_url: https://votre-service-oauth.example
+  # auth_endpoint: auth
+
+media_folder: assets/uploads
+public_folder: /psc-mebsh/assets/uploads
+publish: true
+locale: fr
+site_url: https://VOTRE_COMPTE_GITHUB.github.io/psc-mebsh/
+display_url: https://VOTRE_COMPTE_GITHUB.github.io/psc-mebsh/
+collections:
+  - name: site
+    label: Contenu du site
+    files:
+      - label: Page d’accueil et toutes les rubriques
+        name: accueil
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Grand titre, name: hero_title, widget: string}
+          - {label: Texte de la bannière, name: hero_description, widget: text}
+          - {label: Photo de bannière, name: hero_image, widget: image, required: false}
+          - {label: Titre de présentation, name: about_title, widget: string}
+          - {label: Présentation, name: about_description, widget: text}
+          - {label: Photo de l’équipe, name: about_image, widget: image, required: false}
+          - {label: Photo de la rubrique impact, name: impact_image, widget: image, required: false}
+          - {label: Titre d’adhésion, name: join_title, widget: string}
+          - {label: Texte d’adhésion, name: join_description, widget: text}
+          - {label: Adresse e-mail d’adhésion, name: join_email, widget: string, required: false}
+          - {label: Adresse de contact, name: contact_address, widget: string}
+          - {label: E-mail de contact, name: contact_email, widget: string, required: false}
+          - {label: Téléphone, name: contact_phone, widget: string, required: false}
+          - {label: Lien officiel de la page de dons, name: donation_url, widget: string, required: false, hint: "Lien HTTPS vers le prestataire de dons. Ne pas saisir de clés secrètes."}
+          - label: Statistiques
+            name: stats
+            widget: list
+            fields:
+              - {label: Valeur, name: value, widget: string}
+              - {label: Légende, name: label, widget: string}
+          - label: Programmes
+            name: programs
+            widget: list
+            fields:
+              - {label: Icône ou emoji, name: icon, widget: string}
+              - {label: Titre, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+          - label: Projets
+            name: projects
+            widget: list
+            fields:
+              - {label: Nom du projet, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+              - {label: Photographie, name: image, widget: image, required: false}
+              - {label: Lien de détail, name: link, widget: string, required: false}
+          - label: Actualités
+            name: news
+            widget: list
+            fields:
+              - {label: Catégorie, name: category, widget: string}
+              - {label: Titre, name: title, widget: string}
+              - {label: Date, name: date, widget: string, required: false}
+              - {label: Résumé, name: description, widget: text}
+              - {label: Photo, name: image, widget: image, required: false}
+              - {label: Lien vers l’article, name: link, widget: string, required: false}
+          - label: Partenaires
+            name: partners
+            widget: list
+            required: false
+            fields:
+              - {label: Nom, name: name, widget: string}
+              - {label: Logo, name: logo, widget: image, required: false}
+              - {label: Site officiel, name: link, widget: string, required: false}
+          - {label: Témoignage, name: testimonial_text, widget: text}
+          - {label: Auteur du témoignage, name: testimonial_author, widget: string}

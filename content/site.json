@@ -1,0 +1,115 @@
+{
+  "hero_title": "Ensemble pour une meilleure santé communautaire en Haïti",
+  "hero_description": "Le PSC-MEBSH accompagne les communautés rurales à travers des programmes de santé, d’hygiène, d’eau potable et d’assainissement.",
+  "hero_image": "",
+  "about_title": "Un engagement durable au service des communautés",
+  "about_description": "Le Programme de Santé Communautaire de la MEBSH est une organisation à but non lucratif engagée dans l’amélioration des conditions de vie des communautés rurales du Sud d’Haïti.",
+  "about_image": "",
+  "impact_image": "",
+  "join_title": "Rejoignez notre mission",
+  "join_description": "Devenez membre et participez activement au développement sanitaire des communautés haïtiennes.",
+  "join_email": "",
+  "contact_address": "Bonne Fin, Cavaillon, Sud d’Haïti (W.I.)",
+  "contact_email": "",
+  "contact_phone": "",
+  "donation_url": "",
+  "stats": [
+    {
+      "value": "50 000+",
+      "label": "Personnes accompagnées*"
+    },
+    {
+      "value": "3",
+      "label": "Centres d’intervention*"
+    },
+    {
+      "value": "100+",
+      "label": "Projets communautaires*"
+    },
+    {
+      "value": "48+",
+      "label": "Années d’engagement*"
+    }
+  ],
+  "programs": [
+    {
+      "icon": "♧",
+      "title": "Santé Communautaire",
+      "description": "Soins de santé primaires, cliniques mobiles, suivi et prévention."
+    },
+    {
+      "icon": "💧",
+      "title": "Eau Potable",
+      "description": "Accès à l’eau potable pour des communautés en meilleure santé."
+    },
+    {
+      "icon": "▣",
+      "title": "Assainissement",
+      "description": "Construction de latrines, gestion des déchets et promotion de l’assainissement."
+    },
+    {
+      "icon": "♻",
+      "title": "Hygiène",
+      "description": "Éducation à l’hygiène et promotion de pratiques saines au quotidien."
+    },
+    {
+      "icon": "♙",
+      "title": "Formation Sanitaire",
+      "description": "Formation des agents communautaires et renforcement des capacités."
+    },
+    {
+      "icon": "✚",
+      "title": "Services de Proximité",
+      "description": "Cliniques, consultations et services accessibles à tous."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Bonne Fin",
+      "description": "Centre de santé, eau potable et programmes de prévention.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "title": "Cité Lumière",
+      "description": "Accès à l’eau potable et assainissement pour toute la communauté.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "title": "Labiche",
+      "description": "Santé communautaire et formation des agents de santé.",
+      "image": "",
+      "link": ""
+    }
+  ],
+  "news": [
+    {
+      "category": "SANTÉ",
+      "title": "Campagne de vaccination",
+      "date": "",
+      "description": "Article et date à compléter.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "category": "FORMATION",
+      "title": "Formation des agents communautaires",
+      "date": "",
+      "description": "Article et date à compléter.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "category": "EAU POTABLE",
+      "title": "Nouveau système d’eau potable",
+      "date": "",
+      "description": "Article et date à compléter.",
+      "image": "",
+      "link": ""
+    }
+  ],
+  "partners": [],
+  "testimonial_text": "Les actions de santé communautaire améliorent concrètement le quotidien des familles.",
+  "testimonial_author": "Témoignage illustratif — à remplacer par un témoignage autorisé."
+}
